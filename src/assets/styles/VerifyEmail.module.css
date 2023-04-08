@@ -1,0 +1,36 @@
+.verifyEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.verifyEmail h2 {
+  margin-bottom: 1rem;
+}
+
+.verifyEmail p {
+  margin-bottom: 2rem;
+}
+
+.verifyEmailButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.verifyEmailButtons a {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.verifyEmailButtons a:hover {
+  background-color: #3e8e41;
+}

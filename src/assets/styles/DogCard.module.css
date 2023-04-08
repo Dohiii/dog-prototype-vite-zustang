@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-out;
+  width: 100%;
+  color: black;
+}
+
+.image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.details {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.age,
+.breed {
+  margin: 0.5rem 0 0;
+}

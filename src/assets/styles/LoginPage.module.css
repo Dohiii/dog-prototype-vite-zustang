@@ -1,0 +1,47 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-size: 24px;
+}
+
+.input {
+  padding: 8px;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.button {
+  padding: 8px;
+  font-size: 24px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005ae6;
+}

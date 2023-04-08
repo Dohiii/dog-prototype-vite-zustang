@@ -1,0 +1,31 @@
+.dog-single-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dog-single-page__photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.dog-single-page__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.dog-single-page__label {
+  font-weight: bold;
+}
+
+.dog-single-page__info {
+  margin-bottom: 1rem;
+}
+
+.dog-single-page__note {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #666;
+}
