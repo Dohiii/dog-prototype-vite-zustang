@@ -54,7 +54,6 @@ const CreateNewDog: React.FC = () => {
   const handleImageSelect = (event: any) => {
     const file = event.target.files[0]
     formData.set("image", file)
-
     setSelectedImage(URL.createObjectURL(file))
   }
 

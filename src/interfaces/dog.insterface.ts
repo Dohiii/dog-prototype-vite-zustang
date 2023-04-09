@@ -3,6 +3,7 @@ export interface IDogsResponse {
   totalItems: number
   itemsPerPage: number
   totalPages: number
+  location: string
   currentPage: number
   pagingCounter: number
   hasPrevPage: boolean
@@ -15,6 +16,7 @@ export interface IDog {
   _id: string
   name: string
   age: number
+  location: string
   breed: string
   photo: string
 }
