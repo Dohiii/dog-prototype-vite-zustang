@@ -1,6 +1,16 @@
-import styles from "../assets/styles/HomePage.module.css"
+import styles from "../assets/styles/HomePage.module.css";
 
-import { Container, Box, Flex, Center, Text, Square, Button, Heading, Link } from "@chakra-ui/react"
+import {
+  Container,
+  Box,
+  Flex,
+  Center,
+  Text,
+  Square,
+  Button,
+  Heading,
+  Link,
+} from "@chakra-ui/react";
 
 function HomePage() {
   return (
@@ -9,7 +19,12 @@ function HomePage() {
         <Heading marginTop={"20%"}>Welcome to my app!</Heading>
         <Text fontSize="3xl">Please select an option below:</Text>
         <Box>
-          <Link fontSize={"4xl"} marginRight={"10px"} href="/login" className={styles.navLink}>
+          <Link
+            fontSize={"4xl"}
+            marginRight={"10px"}
+            href="/login"
+            className={styles.navLink}
+          >
             Login
           </Link>
           <Link fontSize={"4xl"} href="/register" className={styles.navLink}>
@@ -37,7 +52,7 @@ function HomePage() {
     //     </ul>
     //   </nav>
     // </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

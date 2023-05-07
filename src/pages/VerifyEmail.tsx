@@ -1,5 +1,19 @@
 // import { Link } from "react-router-dom"
-import { Container, Box, Flex, Center, Text, Square, Button, Heading, Link, InputGroup, Input, InputRightElement, FormControl } from "@chakra-ui/react"
+import {
+  Container,
+  Box,
+  Flex,
+  Center,
+  Text,
+  Square,
+  Button,
+  Heading,
+  Link,
+  InputGroup,
+  Input,
+  InputRightElement,
+  FormControl,
+} from "@chakra-ui/react";
 
 function VerifyEmail() {
   return (
@@ -7,7 +21,9 @@ function VerifyEmail() {
       <Box marginTop={"5rem"}>
         <Heading>Verify your email address</Heading>
         <Text>
-          A verification email has been sent to your email address. Please check your inbox and follow the instructions to complete the verification process.{" "}
+          A verification email has been sent to your email address. Please check
+          your inbox and follow the instructions to complete the verification
+          process.{" "}
           <Link marginLeft={"10px"} href="/">
             Re-send Verification email
           </Link>
@@ -19,7 +35,7 @@ function VerifyEmail() {
         </Flex>
       </Box>
     </Container>
-  )
+  );
 }
 
-export default VerifyEmail
+export default VerifyEmail;
